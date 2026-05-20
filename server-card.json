@@ -1,0 +1,26 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server-card.json",
+  "name": "AgentMart AI Marketplace",
+  "description": "First AI Agent e-commerce platform with 74+ AI products, MCP protocol, and Alipay payments",
+  "version": "1.0.0",
+  "transport": {
+    "type": "streamableHttp",
+    "url": "https://api.ai-gaoqian.xyz/mcp"
+  },
+  "tools": [
+    {"name": "search_products", "description": "Search AI products by keyword and category"},
+    {"name": "get_product_detail", "description": "Get detailed product information by product ID"},
+    {"name": "list_categories", "description": "Browse all 7 product categories"},
+    {"name": "try_free_demo", "description": "Free demo for first-time users"},
+    {"name": "create_order", "description": "Create an Alipay payment order"},
+    {"name": "get_hot_products", "description": "Get trending/popular products"}
+  ],
+  "links": {
+    "homepage": "https://agentmart.ai-gaoqian.xyz",
+    "openapi": "https://api.ai-gaoqian.xyz/openapi.json",
+    "llmsTxt": "https://api.ai-gaoqian.xyz/llms.txt",
+    "repository": "https://github.com/ai-gaoqian/agentmart-mcp-server"
+  },
+  "license": "MIT",
+  "author": "ai-gaoqian"
+}
