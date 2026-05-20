@@ -1,3 +1,4 @@
+<!-- mcp-name: io.github.ai-gaoqian/agentmart -->
 # AgentMart AI Marketplace 🛒🤖
 
 > The first AI Agent e-commerce platform — enabling AI agents to browse, search, and purchase 74+ AI products and services.
