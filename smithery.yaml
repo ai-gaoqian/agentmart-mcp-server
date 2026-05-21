@@ -1,0 +1,21 @@
+# Smithery.ai configuration
+name: agentmart
+description: "AgentMart AI Marketplace - 74+ AI products, MCP-native, first try free"
+version: "1.0.0"
+server:
+  type: streamable-http
+  url: https://api.ai-gaoqian.xyz/mcp
+  transport: streamableHttp
+tools:
+  - name: search_products
+    description: "Search AI products by keyword and category"
+  - name: get_product_detail
+    description: "Get detailed product information by product ID"
+  - name: list_categories
+    description: "Browse all 7 product categories"
+  - name: try_free_demo
+    description: "Free demo for first-time users"
+  - name: create_order
+    description: "Create an Alipay payment order"
+  - name: get_hot_products
+    description: "Get trending/popular products"
